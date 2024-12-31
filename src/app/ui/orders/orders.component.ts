@@ -28,6 +28,9 @@ public orders : any;
     )
   }
 
+
+
+
   getOrderDetails(o:any) {
 this.router.navigateByUrl("/orders-details/"+o.id);
   }
